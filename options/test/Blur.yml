@@ -98,15 +98,15 @@ diffusion_schedule:
 
 # path
 path:
-  pretrain_network_g: /home/ubuntu/qls/HI-Diff/experiments/train_HI_Diff_RealBlur_J_S2/models/net_g_80000.pth
+  pretrain_network_g: models/net_g_80000.pth
   param_key_g: params
   strict_load_g: true
 
-  pretrain_network_le_dm: /home/ubuntu/qls/HI-Diff/experiments/train_HI_Diff_RealBlur_J_S2/models/net_le_dm_80000.pth
+  pretrain_network_le_dm: models/net_le_dm_80000.pth
   param_key_g: params
   strict_load_le_dm: true
 
-  pretrain_network_d: /home/ubuntu/qls/HI-Diff/experiments/train_HI_Diff_RealBlur_J_S2/models/net_d_80000.pth
+  pretrain_network_d: models/net_d_80000.pth
   param_key_g: params
   strict_load_d: true
 
